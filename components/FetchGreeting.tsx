@@ -42,7 +42,7 @@ function greetingReducer(state: IState, action: IAction) {
   }
 }
 
-export default function Fetch({ url }: { url: string }) {
+export default function FetchGreeting({ url }: { url: string }) {
   const [{ error, greeting }, dispatch] = useReducer(
     greetingReducer,
     initialState

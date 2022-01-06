@@ -3,7 +3,7 @@ import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Fetch from '../Fetch';
+import Fetch from '../FetchGreeting';
 import userEvent from '@testing-library/user-event';
 import { build } from '@jackfranklin/test-data-bot';
 import { Greeting } from 'types/Greeting';

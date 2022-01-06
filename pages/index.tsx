@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Fetch from '../components/Fetch';
+import FetchGreeting from '../components/FetchGreeting';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Fetch url="/api/greeting" />
+        <FetchGreeting url="/api/greeting" />
       </main>
 
       <footer className={styles.footer}>Powered by 🐐🐐🐐</footer>

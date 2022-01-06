@@ -8,8 +8,8 @@ https://docs.google.com/presentation/u/0/?tgif=c
 
 ## Run the app locally
 
-`npm run dev`
+`npm install && npm run dev`
 
-## Run the tests locally
+## Run the tests
 
 `npm run test`
