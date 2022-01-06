@@ -1,11 +1,11 @@
-# nextjs-8imwns
+# React Testing Library MSW Example
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nextjs-8imwns)
 
-## Run the app
+## Run the app locally
 
 `npm run dev`
 
-## Run the tests
+## Run the tests locally
 
 `npm run test`
